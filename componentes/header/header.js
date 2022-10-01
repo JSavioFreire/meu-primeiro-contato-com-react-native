@@ -1,14 +1,13 @@
 import { Text, View } from 'react-native';
-import coisa from './headerStyle';
-
+import style from './headerStyle';
 
 export default function Header(){
 
 
     return(
         <View>
-            <View style={coisa.cima}>
-                <Text style={coisa.text}>
+            <View style={style.cima}>
+                <Text style={style.text}>
                     Site do Sávitinho
                 </Text>
             </View>
